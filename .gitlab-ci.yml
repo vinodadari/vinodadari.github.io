@@ -37,4 +37,4 @@ pages:
       - public # GitLab pages serve from a 'public' directory
     expire_in: '900'
   only:
-    - main # run on master branch
+    - master # run on master branch

@@ -1,6 +1,7 @@
-import React from "react";
-import PortfolioLayout from "../layouts/PortfolioLayout";
+import React, { Suspense } from "react";
 import { ReactComponent as DeveloperActivity } from '../assets/DeveloperActivity.svg';
+
+const PortfolioLayout = React.lazy(() => import("../layouts/PortfolioLayout"))
 
 const HomePage = () => {
     return (
@@ -33,7 +34,9 @@ const HomePage = () => {
 const HomePageMixin = () => {
     return (
         <div>
-            <PortfolioLayout component={HomePage} />
+            <Suspense>
+                <PortfolioLayout component={HomePage} />
+            </Suspense>
         </div>
     )
 }

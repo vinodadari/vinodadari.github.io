@@ -21,6 +21,7 @@ body{
         user-select: auto;
         filter: none;
         font-family: $font_mono;
+        z-index: 9999;
 
         nav{
             display: flex;
@@ -37,6 +38,7 @@ body{
                 text-decoration: none;
                 color: $font_color1;
                 padding: 8px;
+                cursor: pointer;
             }
 
             ul{
@@ -48,8 +50,20 @@ body{
                     margin: 0 .5rem;
 
                 }
+                @for $i from 1 through 4 {
+                    >li:nth-child(#{$i}){
+                        opacity: 0;
+                    }
+                }
+                >:last-child{
+                    border: 1px solid $highlight_color;
+                    padding: 8px 4px;
+                }
+
+
 
             }
+
         }
     }
 
@@ -69,6 +83,7 @@ body{
     .description{
         max-width: 500px;
         text-align: justify;
+        line-height: 35px;
     }
     .about_section{
         position: relative;

@@ -18,7 +18,7 @@ const HomePage = () => {
                     </div>
                     <div className="description">
                         <p>
-                            I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.
+                            I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at <a href="https://tessrac.com/" target="_blank" className="highlight_btn">Tessrac</a>
                         </p>
                     </div>
                     <div className="DeveloperActivity">

@@ -1,4 +1,5 @@
 import React from "react";
+import ResumePdf from '../assets/VinodhResume.pdf';
 
 const PortfolioLayout = (props) => {
     return (
@@ -13,7 +14,7 @@ const PortfolioLayout = (props) => {
                         <li><a href="#experiance">Experiance</a></li>
                         <li><a href="#work">Work</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="#resume">Resume</a></li>
+                        <li><a href={ResumePdf} target="_blank">Resume</a></li>
                     </ul>
                 </nav>
             </header>

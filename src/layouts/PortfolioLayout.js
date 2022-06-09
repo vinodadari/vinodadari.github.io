@@ -6,14 +6,14 @@ const PortfolioLayout = (props) => {
             <header className="navigation_bar">
                 <nav>
                     <div className="logo">
-                        <a href="#">I am logo</a>
+                        <a href="#top">V</a>
                     </div>
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Experiance</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Resume</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experiance">Experiance</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#resume">Resume</a></li>
                     </ul>
                 </nav>
             </header>

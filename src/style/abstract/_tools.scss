@@ -5,3 +5,18 @@
 .btn_cursor{
     cursor: pointer;
 }
+.big_heading{
+    margin: 0;
+    font-size: clamp(20px,4vw,50px);
+
+    h2{
+        color: $font_color2;
+        padding: 0;
+        margin: 0px 0px 30px;
+    }
+    h3{
+        color: $font_color3;
+        padding: 0;
+        margin: 0px 0px 30px;
+    }
+}

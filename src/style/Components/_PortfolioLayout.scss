@@ -83,17 +83,51 @@ body{
     .description{
         max-width: 500px;
         text-align: justify;
-        line-height: 35px;
+        // line-height: 35px;
     }
     .about_section{
         position: relative;
+        height: 100vh;
+        max-height: 100vh;
+        background-image: url("../../assets/DeveloperActivity.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 80vh;
+        background-clip: content-box;
+        span{
+            background-color: rgb(10 25 47 / 85%);
+            backdrop-filter: blur(10px);
+            filter: none;
+            margin: 0;
+        }
+
         .DeveloperActivity{
+            display: none;
             position: absolute;
             right: 0;
             svg{
-                width: clamp(20px,25vw,50vw);
-                height: clamp(20px,25vw,50vw);
+                width: clamp(20px,30vw,50vw);
+                height: clamp(20px,40vw,50vw);
+                // height: 50vh;
+                // width: 100vh;
             }
         }
+    }
+    @media only screen and (max-width:1400px) {
+        .about_section{
+            span{
+                color: #fff;
+                backdrop-filter: blur(5px);
+            }
+        }
+    }
+    @media screen and (max-width:690px) {
+        .about_section{
+            background-position: center;
+            span{
+                padding:0 10px;
+            }
+        }
+
     }
 }

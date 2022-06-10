@@ -2,9 +2,27 @@
     cursor: context-menu;
 }
 
-.highlight_text{
+.highlight_link{
     color: $highlight_color;
     text-decoration: none;
+    display: inline-block;
+
+}
+.highlight_link::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: $highlight_color;
+    position: relative;
+    width: 0%;
+    transition: $hover_transition ;
+}
+.highlight_link{
+    &:hover::after{
+        width: 100%;
+        transition: $hover_transition;
+        opacity: .5;
+    }
 }
 .highlight_btn{
     text-decoration: none;
@@ -27,4 +45,8 @@
         padding: 0;
         margin: 0px 0px 20px;
     }
+}
+a{
+    text-decoration: none;
+    color: $highlight_color;
 }

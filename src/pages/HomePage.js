@@ -1,5 +1,4 @@
 import React, { Suspense } from "react";
-import { ReactComponent as DeveloperActivity } from '../assets/DeveloperActivity.svg';
 
 const PortfolioLayout = React.lazy(() => import("../layouts/PortfolioLayout"))
 
@@ -7,7 +6,7 @@ const HomePage = () => {
     return (
         <div>
             <main className="HomePage_content">
-                <section className="about_section" id="about">
+                <section className="introduction" id="about">
                     <span>
                         <div className="highlight ">
                             <h1>Hi, my name is</h1>
@@ -20,13 +19,26 @@ const HomePage = () => {
                         </div>
                         <div className="description">
                             <p>
-                                I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at <a href="https://tessrac.com/" rel="noreferrer" target="_blank" className="highlight_text">Tessrac</a>
+                                I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at <a href="https://tessrac.com/" rel="noreferrer" target="_blank" className="highlight_link">Tessrac</a>
                             </p>
                         </div>
-                        <div className="DeveloperActivity">
-                            <DeveloperActivity />
-                        </div>
                     </span>
+                </section>
+                <section className="about_me">
+                    <h2 className="section_heading">About ME</h2>
+                    <div className="innerBox">
+                        <div className="innerText">
+                            <p>lorem</p>
+                            <div className="skills_list">
+                                <ul>
+                                    <li>skill 1</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="innerImage">
+                            I am Image
+                        </div>
+                    </div>
                 </section>
             </main>
         </div>

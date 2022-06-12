@@ -1,23 +1,11 @@
 import React from "react";
-import ResumePdf from '../assets/VinodhResume.pdf';
+
+const NavBar = React.lazy(() => import("../Components/NavBar"))
 
 const PortfolioLayout = (props) => {
     return (
         <div className="portfolio_root_body">
-            <header className="navigation_bar">
-                <nav>
-                    <div className="logo">
-                        <a href="#top">V</a>
-                    </div>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experiance">Experiance</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href={ResumePdf} rel="noreferrer noopener" className="highlight_link" target="_blank">Resume</a></li>
-                    </ul>
-                </nav>
-            </header>
+            <NavBar />
             {React.createElement(props.component)}
         </div>
     )

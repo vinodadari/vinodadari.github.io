@@ -1,0 +1,29 @@
+.GetinTouch{
+    // display: grid;
+    // grid-template-columns: repeat(2,3fr);
+    // gap: 50px;
+    // scroll-padding-right: 5%;
+    align-items: center !important;
+    text-align: center;
+    .InnerText{
+        width: 40%;
+    }
+    h5{
+        font-style: italic;
+        font-size: 15px;
+    }
+    a>img{
+        height: 25px;
+        width: 25px;
+        margin-left: 5px;
+    }
+}
+@media  screen and (max-width:690px) {
+    .GetinTouch{
+        display: block;
+        .InnerText{
+            // padding: 0 5%;
+            width: 80%;
+        }
+    }
+}

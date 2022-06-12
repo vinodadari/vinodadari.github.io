@@ -1,0 +1,41 @@
+.introduction{
+    position: relative;
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url("../../assets/DeveloperActivity.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80vh;
+    background-clip: content-box;
+
+    span{
+        background-color: rgb(10 25 47 / 85%);
+        backdrop-filter: blur(10px);
+        filter: none;
+        margin: 0;
+    }
+
+    .description{
+        max-width: 500px;
+        text-align: justify;
+        // line-height: 35px;
+    }
+}
+@media only screen and (max-width:1400px) {
+    .introduction{
+        span{
+            color: #fff;
+            backdrop-filter: blur(5px);
+        }
+    }
+}
+@media screen and (max-width:690px) {
+
+    .introduction{
+        background-position: center;
+        span{
+            padding:0 10px;
+        }
+    }
+
+}

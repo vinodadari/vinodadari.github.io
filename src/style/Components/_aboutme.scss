@@ -1,0 +1,67 @@
+.about_me{
+    .section_heading{
+        display: flex;
+        align-items: center;
+        color: $font_color1;
+    }
+    .section_heading::after{
+        content: "";
+        width: 14rem;
+        height: 1px;
+        border-bottom: 1px solid $font_color3;
+        // background-color: $highlight_color;
+        margin-left: 20px;
+
+    }
+    .innerBox{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 50px;
+        padding: 0 5%;
+        .innerText{
+            p{
+                text-align: justify;
+            }
+            .skill_list{
+                display: grid;
+                grid-template-columns: repeat(2,minmax(140px,200px));
+                list-style-type: none;
+
+            }
+            .skill_list>li{
+                position: relative;
+                padding-left: 15px;
+            }
+            .skill_list>li::before{
+                content: '>';
+                color: $highlight_color;
+                font-size: 10px;
+                position: absolute;
+                left: 0;
+                top: 5px;
+
+            }
+        }
+        .innerImage{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            img{
+                width: 250px;
+                margin-top: 20px;
+                filter: grayscale(1);
+                &:hover{
+                    filter: grayscale(0);
+                    transition: $hover_transition;
+                }
+            }
+
+        }
+    }
+    @media screen and (max-width:690px) {
+        .innerBox{
+            display: block;
+        }
+    }
+
+}

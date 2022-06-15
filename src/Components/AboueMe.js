@@ -8,31 +8,25 @@ const AboutMe = () => {
                     <div className="innerBox">
                         <div className="innerText">
                             <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                                Hello!, I'm Vinodh Kumar Adari, and I enjoy creating things that live on the internet. My career started with the accidentally shown web source page with numerous HTML tags. And I became addicted and deep dive into cloud things.
 
-                            </p>
-                            <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        </p>
+                        <p>I've had the privilege of working with <a href="https://www.vensatechnologies.com" rel="noopener noreferrer" className="highlight_link" target="_blank">Vensa</a> and  <a href="https://inspiredgeit.com" rel="noopener noreferrer" className="highlight_link" target="_blank">InspiredgeIT</a>. I am currently working at <a href="https://www.tessrac.com" rel="noopener noreferrer" className="highlight_link" target="_blank">Tessrac</a> in order to build more accessible, inclusive products for various clients.
 
-                            </p>
-                            <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-
-                            </p>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
                             </p>
                             <ul className="skill_list">
-                                <li>skill 1</li>
-                                <li>skill 1</li>
-                                <li>skill 1</li>
-                                <li>skill 1</li>
-                                <li>skill 1</li>
-                                <li>skill 1</li>
+                                <li>Python</li>
+                                <li>React JS</li>
+                                <li>HTML & SCSS</li>
+                                <li>Next JS</li>
+                                <li>Git</li>
+                                <li>AWS</li>
                             </ul>
                         </div>
                         <div className="innerImage">
-                            <img src={DeveloperImage} alt="Vinodh Kumar Adari | Profile Pic | software engineer" />
+                            <div className="img_wrapper">
+                                <img src={DeveloperImage} alt="Vinodh Kumar Adari | Profile Pic | software engineer" />
+                            </div>
                         </div>
                     </div>
                 </section>

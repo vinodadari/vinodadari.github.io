@@ -15,7 +15,7 @@ const WorkExperiance = (props) => {
                     <div className="tab_list">
                         {companies.map((val, index) =>
                             <button
-                                className={(currentCompany == val) ? 'active' : ''}
+                                className={(currentCompany === val) ? 'active' : ''}
                                 onClick={()=>setCurrentCompany(val)}
                             >
                                 <span>{val}</span>
@@ -24,7 +24,7 @@ const WorkExperiance = (props) => {
 
                     </div>
                     <div className="tab_content_box">
-                        <div className={(currentCompany == 'Tessrac') ? "tab_content" : "d-none"}>
+                        <div className={(currentCompany === 'Tessrac') ? "tab_content" : "d-none"}>
                             <h3>Software Engineer <span className="company">&nbsp; @ &nbsp;Tessrac</span></h3>
                             <p>June 2020 - Present <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
@@ -36,7 +36,7 @@ const WorkExperiance = (props) => {
                                 </ul>
                             </div>
                         </div>
-                        <div className={(currentCompany == 'Inspiredge IT') ? "tab_content" : "d-none"}>
+                        <div className={(currentCompany === 'Inspiredge IT') ? "tab_content" : "d-none"}>
                             <h3>Software Engineer <span className="company">&nbsp; @ &nbsp;Inspiredge IT</span></h3>
                             <p>Jan 2020 - June 2020 <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
@@ -47,7 +47,7 @@ const WorkExperiance = (props) => {
                                 </ul>
                             </div>
                         </div>
-                        <div className={(currentCompany == 'Vensa') ? "tab_content" : "d-none"}>
+                        <div className={(currentCompany === 'Vensa') ? "tab_content" : "d-none"}>
                             <h3>Software Developer <span className="company">&nbsp; @ &nbsp;Vensa</span></h3>
                             <p>Aug 2017 - Jan 2020 <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>

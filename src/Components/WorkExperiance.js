@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-const WorkExperiance = () => {
+const WorkExperiance = (props) => {
     const [currentCompany, setCurrentCompany ] = useState('Tessrac');
     const companies = ['Tessrac', 'Inspiredge IT', 'Vensa'];
     // useEffect
     // console.log(currentCompany);
     return (
         <>
-            <section className="work_experiance">
+            <section className="work_experiance" id={props.id}>
                 <h2 className="section_heading" aria-hidden="true">
                     Where I've Worked
                 </h2>

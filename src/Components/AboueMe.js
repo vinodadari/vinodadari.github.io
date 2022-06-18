@@ -1,10 +1,10 @@
 import DeveloperImage  from "../assets/myPic.png";
 import DeveloperImageWebp  from "../assets/myPic.webp";
 
-const AboutMe = () => {
+const AboutMe = (props) => {
     return (
         <>
-            <section className="about_me">
+            <section className="about_me" id={props.id}>
                 <h2 className="section_heading">About Me</h2>
                 <div className="innerBox">
                     <div className="innerText">

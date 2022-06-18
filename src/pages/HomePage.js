@@ -12,10 +12,10 @@ const HomePage = () => {
         <div>
             <main className="HomePage_content">
                 <Suspense fallback={<div>Loading</div>}>
-                    <Intro />
-                    <AboutMe />
-                    <WorkExperiance />
-                    <GetInTouch />
+                    <Intro id="intro" />
+                    <AboutMe id="about"/>
+                    <WorkExperiance id="experiance" />
+                    <GetInTouch id="contact" />
                 </Suspense>
             </main>
         </div>

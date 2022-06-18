@@ -1,7 +1,7 @@
-const Intro = () => {
+const Intro = (props) => {
     return (
         <>
-            <section className="introduction" id="about">
+            <section className="introduction" id={props.id}>
                     <span>
                         <div className="highlight ">
                             <h1>Hi, my name is</h1>

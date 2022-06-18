@@ -4,10 +4,10 @@ import InstaIcon from '../assets/InstaIcon.png';
 import LinkedinIcon from '../assets/LinkedinIcon.png'
 
 
-const GetInTouch = () => {
+const GetInTouch = (props) => {
     return (
         <>
-            <section className='GetinTouch'>
+            <section className='GetinTouch' id={props.id} >
             <div className="InnerText big_heading">
                         <h3>
                             Get In Touch

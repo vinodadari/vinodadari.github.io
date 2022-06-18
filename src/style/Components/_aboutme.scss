@@ -11,7 +11,7 @@
         grid-template-columns: 3fr 2fr;
         gap: 50px;
         .innerText{
-            margin: 0 5%;
+
             p{
                 text-align: justify;
             }
@@ -80,6 +80,10 @@
     @media screen and (max-width:690px) {
         .innerBox{
             display: block;
+            .innerText{
+                width: 85%;
+                margin: 0 auto;
+            }
         }
     }
 

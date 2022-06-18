@@ -14,7 +14,6 @@
         .tab_list{
             display: flex;
             flex-direction: column;
-            width: 9rem;
 
             button{
                 display: flex;
@@ -25,6 +24,7 @@
                 border: none;
                 cursor: pointer;
                 border-left: 2px solid $background_color2;
+                white-space: nowrap;
 
                 &:hover{
                     background-color: $background_color2;
@@ -45,7 +45,7 @@
                     font-style: italic;
                 }
                 .addr{
-                    margin-left: 10%;
+                    margin-left: 10px;
                 }
                 .company{
                     color: $highlight_color;
@@ -98,7 +98,7 @@
                 }
             }
             .tab_content_box{
-                width: 350px;
+                width: 85%;
                 margin: 0 auto;
                 .tab_content{
                     ul{

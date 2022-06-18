@@ -5,6 +5,7 @@ const Intro = React.lazy(() => import("../Components/Intro"));
 const AboutMe = React.lazy(() => import("../Components/AboueMe"));
 const WorkExperiance = React.lazy(() => import("../Components/WorkExperiance"));
 const GetInTouch = React.lazy(() => import("../Components/GetInTouch"));
+const Footer = React.lazy(() => import('../Components/Footer'));
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
                     <AboutMe id="about"/>
                     <WorkExperiance id="experiance" />
                     <GetInTouch id="contact" />
+                    <Footer />
                 </Suspense>
             </main>
         </div>

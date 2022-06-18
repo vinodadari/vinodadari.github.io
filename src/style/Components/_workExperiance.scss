@@ -44,6 +44,9 @@
                 h3{
                     font-style: italic;
                 }
+                .addr{
+                    margin-left: 10%;
+                }
                 .company{
                     color: $highlight_color;
                 }
@@ -70,7 +73,7 @@
             .tab_list{
                 flex-direction: row;
                 width: 100%;
-                overflow-x: scroll;
+                // overflow-x: scroll;
                 white-space: nowrap;
                 button{
                     display: flex;
@@ -95,6 +98,8 @@
                 }
             }
             .tab_content_box{
+                width: 500px;
+                margin: 0 auto;
                 .tab_content{
                     ul{
                         width: fit-content  ;

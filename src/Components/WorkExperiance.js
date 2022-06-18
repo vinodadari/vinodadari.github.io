@@ -26,7 +26,7 @@ const WorkExperiance = (props) => {
                     <div className="tab_content_box">
                         <div className={(currentCompany == 'Tessrac') ? "tab_content" : "d-none"}>
                             <h3>Software Engineer <span className="company">&nbsp; @ &nbsp;Tessrac</span></h3>
-                            <p>June 2020 - Present</p>
+                            <p>June 2020 - Present <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
                                 <ul>
                                     <li>Hands-on experience in Python, React JS, sockets, Kafka, SNMP, Nagios, Redis, and MySQLi.</li>
@@ -38,7 +38,7 @@ const WorkExperiance = (props) => {
                         </div>
                         <div className={(currentCompany == 'Inspiredge IT') ? "tab_content" : "d-none"}>
                             <h3>Software Engineer <span className="company">&nbsp; @ &nbsp;Inspiredge IT</span></h3>
-                            <p>Jan 2020 - June 2020</p>
+                            <p>Jan 2020 - June 2020 <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
                                 <ul>
                                     <li>** I transferred to Inspiredge's sister company TESSRAC.</li>
@@ -49,7 +49,7 @@ const WorkExperiance = (props) => {
                         </div>
                         <div className={(currentCompany == 'Vensa') ? "tab_content" : "d-none"}>
                             <h3>Software Developer <span className="company">&nbsp; @ &nbsp;Vensa</span></h3>
-                            <p>Aug 2017 - Jan 2020</p>
+                            <p>Aug 2017 - Jan 2020 <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
                                 <ul>
                                     <li>Experienced in developing CMS web applications, Invoice Management systems, Inventory Managers, E-Commerce, Business Promotion, and some other websites.</li>

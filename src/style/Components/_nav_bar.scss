@@ -39,11 +39,7 @@
                 margin: 0 .5rem;
 
             }
-            @for $i from 1 through 4 {
-                >li:nth-child(#{$i}){
-                    opacity: 0;
-                }
-            }
+
             >:last-child{
                 border: 1px solid $highlight_color;
                 padding: 2px;
@@ -59,5 +55,14 @@
 @media screen and (max-width:690px) {
     .navigation_bar{
         padding: 0px;
+        nav{
+            ul{
+                @for $i from 1 through 4 {
+                    >li:nth-child(#{$i}){
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }

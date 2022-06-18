@@ -1,0 +1,106 @@
+.work_experiance{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin: 0px auto;
+
+    .experiance_box{
+        display: flex;
+        align-items: baseline;
+        min-height: 340px;
+
+        .tab_list{
+            display: flex;
+            flex-direction: column;
+            width: 9rem;
+
+            button{
+                display: flex;
+                align-content: center;
+                padding: 1rem .8rem;
+                background-color: transparent;
+                color: $font_color1;
+                border: none;
+                cursor: pointer;
+                border-left: 2px solid $background_color2;
+
+                &:hover{
+                    background-color: $background_color2;
+                }
+            }
+            .active{
+                border-left: 2px solid $highlight_color;
+                transition: $hover_transition;
+            }
+        }
+        .tab_content_box{
+            margin-left: 5px;
+
+            .tab_content{
+                position: relative;
+                visibility: visible;
+                h3{
+                    font-style: italic;
+                }
+                .company{
+                    color: $highlight_color;
+                }
+                ul{
+                    width: 500px;
+                    padding-inline-start: 15px;
+                    writing-mode: horizontal-tb;
+                    li{
+                        list-style-type: devanagari;
+                        padding-bottom: .5rem;
+                        text-align: justify;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:690px) {
+    .work_experiance{
+        .experiance_box{
+            display: block;
+            .tab_list{
+                flex-direction: row;
+                width: 100%;
+                overflow-x: scroll;
+                white-space: nowrap;
+                button{
+                    display: flex;
+                    align-content: center;
+                    padding: 1rem .8rem;
+                    background-color: transparent;
+                    color: $font_color1;
+                    border: none;
+                    cursor: pointer;
+                    border-bottom: 2px solid $background_color2;
+                    width: 100%;
+                    justify-content: center;
+
+                    &:hover{
+                        background-color: $background_color2;
+                    }
+                }
+                .active{
+                    border: none;
+                    border-bottom: 2px solid $highlight_color;
+                    transition: $hover_transition;
+                }
+            }
+            .tab_content_box{
+                .tab_content{
+                    ul{
+                        width: fit-content  ;
+                    }
+                }
+            }
+        }
+    }
+}

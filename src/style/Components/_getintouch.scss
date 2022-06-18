@@ -1,12 +1,14 @@
 .GetinTouch{
-    // display: grid;
-    // grid-template-columns: repeat(2,3fr);
-    // gap: 50px;
-    // scroll-padding-right: 5%;
-    align-items: center !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
     .InnerText{
         width: 40%;
+        margin: 0 auto;
     }
     h5{
         font-style: italic;
@@ -21,6 +23,7 @@
 @media  screen and (max-width:690px) {
     .GetinTouch{
         display: block;
+        height: 70vh !important;
         .InnerText{
             // padding: 0 5%;
             width: 80%;

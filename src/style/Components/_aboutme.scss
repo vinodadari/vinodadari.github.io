@@ -1,24 +1,17 @@
 .about_me{
-    .section_heading{
-        display: flex;
-        align-items: center;
-        color: $font_color1;
-    }
-    .section_heading::after{
-        content: "";
-        width: 14rem;
-        height: 1px;
-        border-bottom: 1px solid $font_color3;
-        // background-color: $highlight_color;
-        margin-left: 20px;
 
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    margin: 0px auto;
+
     .innerBox{
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 50px;
-        padding: 0 5%;
         .innerText{
+            margin: 0 5%;
             p{
                 text-align: justify;
             }

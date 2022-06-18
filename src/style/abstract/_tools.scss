@@ -53,3 +53,28 @@ a{
     text-decoration: none;
     color: $highlight_color;
 }
+.section_heading{
+    display: flex;
+    align-items: center;
+    color: $font_color1;
+    white-space: nowrap;
+
+    &:after{
+        content: "";
+        width: 14rem;
+        height: 1px;
+        border-bottom: 1px solid $font_color3;
+        // background-color: $highlight_color;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:690px) {
+    .section_heading{
+        &::after{
+            width: -webkit-fill-available;
+        }
+    }
+}
+.d-none{
+    display: none !important;
+}

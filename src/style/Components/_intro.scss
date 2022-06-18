@@ -1,11 +1,16 @@
 .introduction{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     position: relative;
     height: 100vh;
     max-height: 100vh;
     background-image: url("../../assets/DeveloperActivity.svg");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 80vh;
+    background-size: 50vh;
     background-clip: content-box;
 
     span{

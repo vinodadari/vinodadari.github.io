@@ -17,10 +17,12 @@ const AboutMe = (props) => {
 
                         </p>
                         <ul className="skill_list">
-                            <li>Python</li>
-                            <li>React JS</li>
                             <li>HTML & SCSS</li>
-                            <li>Next JS</li>
+                            <li>React JS</li>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>Sockets</li>
+                            <li>MySQLi</li>
                             <li>Git</li>
                             <li>AWS</li>
                         </ul>

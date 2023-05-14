@@ -20,17 +20,17 @@ const GetInTouch = () => {
                         <span className="social_links">
                             <a href="https://www.instagram.com/itsvinodadari/" rel="noreferrer noopener" target="_blank">
                                 <img src={InstaIcon} alt="Instagram Icon" /></a>
-                            <a href="https://gitlab.com/ItsVinodAdari" rel="noreferrer noopener" target="_blank">
+                            <a href="https://github.com/vinodadari" rel="noreferrer noopener" target="_blank">
                                 <img src={GitIcon} alt="Git Icon" />
                             </a>
-                            <a href="https://www.linkedin.com/in/itsvinodadari/" rel="noreferrer noopener" target="_blank">
+                            <a href="https://www.linkedin.com/in/vinodadari/" rel="noreferrer noopener" target="_blank">
                                 <img src={LinkedinIcon} alt="Linkedin Icon" />
                             </a>
                         </span>
 
                         <h5>
                             If you are good at something never do if for free <span className="emoji"></span>
-                        </h5>
+                    </h5>
                     </div>
             </section>
         </>

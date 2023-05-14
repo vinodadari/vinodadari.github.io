@@ -9,18 +9,14 @@ const AboutMe = () => {
                 <div className="innerBox">
                     <div className="innerText">
                         <p>
-                            Hello!, I'm Vinodh Kumar Adari, and I enjoy creating things that live on the internet.
-                            My career started with the accidentally shown web source page with numerous HTML tags.
-                            And I became addicted and deep dive into cloud things.
+                            As a developer, I have experience in using Git and Github for version control, and I have deployed projects on both AWS and GCP virtual machines. Additionally, I have worked with containerization using Docker and developed applications using Nagios, SNMP, Django, Flask, React, Socket, Twisted, Fast Api, and Python-Kafka. I have also used Dogpilecache to improve performance and designed and developed Rest APIs. I am proficient in both Python and JavaScript, and have experience working with MySQL databases.
                         </p>
-                        <p>I've had the privilege of working with <a href="https://www.vensatechnologies.com" rel="noopener noreferrer" className="highlight_link" target="_blank">Vensa</a> and  <a href="https://inspiredgeit.com" rel="noopener noreferrer" className="highlight_link" target="_blank">InspiredgeIT</a>. I am currently working at <a href="https://www.tessrac.com" rel="noopener noreferrer" className="highlight_link" target="_blank">Tessrac</a> in order to build more accessible, inclusive products for various clients.
 
-                        </p>
                         <ul className="skill_list">
                             <li>Python</li>
                             <li>React JS</li>
                             <li>HTML & SCSS</li>
-                            <li>Next JS</li>
+                            <li>Django</li>
                             <li>Git</li>
                             <li>AWS</li>
                         </ul>

@@ -29,10 +29,12 @@ const WorkExperiance = () => {
                             <p>June 2020 - Present</p>
                             <div>
                                 <ul>
-                                    <li>Hands-on experience in Python, React JS, sockets, Kafka, SNMP, Nagios, Redis, and MySQLi.</li>
-                                    <li>Implemented SNMPwalk core functionality to do snmpwalk on and network devices.</li>
-                                    <li>Experience in Implementing windows exe installer using python.</li>
-                                    <li>Developed two-way socket communication.</li>
+                                    <li>** I transferred to Inspiredge’s subsidiary company</li>
+                                    <li>Successfully implemented bidirectional socket communication using Python.</li>
+                                    <li>Designed a system to listen to SNMP traps and convert them for further processing.</li>
+                                    <li>Implemented Nagios event listener to receive and handle events efficiently.</li>
+                                    <li>Collaborated with the team effectively and followed Object-Oriented Programming (OOP) principles during software development.</li>
+                                    <li>Used Apache Kafka and designed the necessary DB schema to support the project's functionalities. Maintained a Git repository to ensure code version control and efficient collaboration.</li>
                                 </ul>
                             </div>
                         </div>
@@ -41,9 +43,10 @@ const WorkExperiance = () => {
                             <p>Jan 2020 - June 2020</p>
                             <div>
                                 <ul>
-                                    <li>** I transferred to Inspiredge's sister company TESSRAC.</li>
-                                    <li>Hands-on experience in Python, sockets, Kafka, SNMP, Nagios, Redis, and MySQLi.</li>
-                                    <li>Developed two-way socket communication(many to many).</li>
+                                    <li>Created a system for monitoring the health of devices by generating events based on the contents of email templates.</li>
+                                    <li>Used regular expressions (regex) to extract relevant information from email messages, such as error codes, device names, and timestamps.</li>
+                                    <li>Processed email data in real-time, allowing for quick identification and resolution of device issues.</li>
+                                    <li>Integrated the generated events into the larger monitoring system, providing a comprehensive view of device health and enabling proactive maintenance and troubleshooting.</li>
                                 </ul>
                             </div>
                         </div>
@@ -52,9 +55,9 @@ const WorkExperiance = () => {
                             <p>Aug 2017 - Jan 2020</p>
                             <div>
                                 <ul>
-                                    <li>Experienced in developing CMS web applications, Invoice Management systems, Inventory Managers, E-Commerce, Business Promotion, and some other websites.</li>
-                                    <li>I have a good hang of Shopify and WordPress as well.</li>
-                                    <li>Deploying the application to Virtual Private Servers CI/CD using Git.</li>
+                                    <li>Developed various web applications, including CMS systems, invoice management systems, and inventory managers, using object-oriented programming (OOP) principles and best practices in software development.</li>
+                                    <li>Collaborated with cross-functional teams, including designers, developers, and marketers, to create web applications that met business needs and provided a positive user experience.</li>
+                                    <li>Designed and developed systems with a focus on scalability, maintainability, and usability, using system design principles that ensured code modularity and flexibility for future enhancements. Additionally, collaborated with marketing teams to develop strategies for promoting web applications and increasing user engagement.</li>
                                 </ul>
                             </div>
                         </div>

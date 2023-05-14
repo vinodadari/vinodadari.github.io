@@ -12,7 +12,10 @@
     "sass": "^1.62.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://vinodadari.github.io/vinodadari.github.io",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "node-sass": "^7.0.3",
     "sass-loader": "^13.2.2"
   }

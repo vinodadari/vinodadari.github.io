@@ -12,7 +12,7 @@
     "sass": "^1.62.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://vinodadari.github.io/vinodadari.github.io",
+  "homepage": "https://vinodadari.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

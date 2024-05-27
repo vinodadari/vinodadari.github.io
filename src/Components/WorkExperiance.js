@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-const WorkExperiance = (props) => {
-    const [currentCompany, setCurrentCompany ] = useState('Tessrac');
+const WorkExperiance = () => {
+    const [currentCompany, setCurrentCompany] = useState('Tessrac');
     const companies = ['Tessrac', 'Inspiredge IT', 'Vensa'];
     // useEffect
     // console.log(currentCompany);
     return (
         <>
-            <section className="work_experiance" id={props.id}>
+            <section className="work_experiance" id="experiance">
                 <h2 className="section_heading" aria-hidden="true">
                     Where I've Worked
                 </h2>
@@ -16,7 +16,7 @@ const WorkExperiance = (props) => {
                         {companies.map((val, index) =>
                             <button
                                 className={(currentCompany === val) ? 'active' : ''}
-                                onClick={()=>setCurrentCompany(val)}
+                                onClick={() => setCurrentCompany(val)}
                             >
                                 <span>{val}</span>
                             </button>
@@ -29,10 +29,13 @@ const WorkExperiance = (props) => {
                             <p>June 2020 - Present <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
                                 <ul>
-                                    <li>Implemented SNMPwalk core functionality to do snmpwalk on and network devices.</li>
-                                    <li>Experience in Implementing windows exe installer using python.</li>
-                                    <li>Developed two-way socket communication.</li>
-                                    <li><b>Skills :</b> Multithreading, Sockets, Python, Apache Kafka, MySQLi, Redis, SNMP, Nagios, Django, AWS</li>
+                                    <li>** Transferred from InspiredgeIT Solutions</li>
+                                    <li><b>Network & Monitoring Expertise:</b> Built real-time communication channels (bidirectional sockets),
+                                        processed SNMP traps, and implemented an efficient Nagios event listener.</li>
+                                    <li><b>Full-Stack Development:</b> Designed and implemented functionalities using OOP principles, utilized
+                                        Apache Kafka for data streaming, and created a supporting database schema.</li>
+                                    <li><b>Collaboration & Version Control:</b> Maintained a Git repository and collaborated effectively with the
+                                        team throughout the development process.</li>
                                 </ul>
                             </div>
                         </div>
@@ -41,9 +44,12 @@ const WorkExperiance = (props) => {
                             <p>Jan 2020 - June 2020 <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
                                 <ul>
-                                    <li>** I transferred to Inspiredge's sister company TESSRAC.</li>
-                                    <li>Developed two-way socket communication(many to many).</li>
-                                    <li><b>Skills :</b> Sockets, Linux, Python (Programming Language), Apache Kafka, MySQLi</li>
+                                    <li>Transferred to Inspiredge’s sister company</li>
+                                    <li><b>Automated Device Monitoring:</b> Built a system using email templates and regular expressions to
+                                        generate real-time events for device health monitoring, enabling faster issue identification and
+                                        resolution.</li>
+                                    <li><b>Enhanced Monitoring System:</b> Integrated generated events into the existing monitoring system,
+                                        offering a comprehensive view of device health.</li>
                                 </ul>
                             </div>
                         </div>
@@ -52,10 +58,12 @@ const WorkExperiance = (props) => {
                             <p>Aug 2017 - Jan 2020 <span className="addr">&nbsp;/&nbsp;/&nbsp; Visakhapatnam, IN.</span></p>
                             <div>
                                 <ul>
-                                    <li>Experienced in developing CMS web applications, Invoice Management systems, Inventory Managers, E-Commerce, Business Promotion, and some other websites.</li>
-                                    <li>I have a good hang of Shopify and WordPress as well.</li>
-                                    <li>Deploying the application to Virtual Private Servers CI/CD using Git.</li>
-                                    <li><b>Skills :</b> HTML, CSS, AJAX, JavaScript, Python, Django, AWS, MySQLi</li>
+                                    <li><b>Full-Stack Development:</b> Built diverse web applications (CMS, invoicing, inventory) using OOP and best
+                                        practices. Collaborated with cross-functional teams to deliver user-friendly and scalable solutions.</li>
+                                    <li><b>System Design & Maintainability:</b> Focused on code modularity, scalability, and maintainability while
+                                        designing and developing systems, ensuring future adaptability.</li>
+                                    <li><b>User-Centric Development:</b> Collaborated with designers and marketers to create web applications
+                                        that address business needs and foster user engagement.</li>
                                 </ul>
                             </div>
                         </div>

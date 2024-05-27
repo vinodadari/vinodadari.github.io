@@ -14,6 +14,7 @@
             margin: 0 5%;
             p{
                 text-align: justify;
+                line-height: 1.5rem;
             }
             .skill_list{
                 display: grid;
@@ -23,15 +24,16 @@
             }
             .skill_list>li{
                 position: relative;
-                padding-left: 15px;
+                padding-left: 12px;
+                padding-top: .8rem;
             }
             .skill_list>li::before{
                 content: '>';
                 color: $highlight_color;
-                font-size: 10px;
+                font-size: 15px;
                 position: absolute;
                 left: 0;
-                top: 5px;
+                top: .8rem;
 
             }
         }

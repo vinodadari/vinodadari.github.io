@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const WorkExperiance = () => {
-    const [currentCompany, setCurrentCompany ] = useState('Tessrac');
+    const [currentCompany, setCurrentCompany] = useState('Tessrac');
     const companies = ['Tessrac', 'Inspiredge IT', 'Vensa'];
     // useEffect
     // console.log(currentCompany);
@@ -16,7 +16,7 @@ const WorkExperiance = () => {
                         {companies.map((val, index) =>
                             <button
                                 className={(currentCompany === val) ? 'active' : ''}
-                                onClick={()=>setCurrentCompany(val)}
+                                onClick={() => setCurrentCompany(val)}
                             >
                                 <span>{val}</span>
                             </button>
@@ -29,12 +29,13 @@ const WorkExperiance = () => {
                             <p>June 2020 - Present</p>
                             <div>
                                 <ul>
-                                    <li>** I transferred to Inspiredge’s subsidiary company</li>
-                                    <li>Successfully implemented bidirectional socket communication using Python.</li>
-                                    <li>Designed a system to listen to SNMP traps and convert them for further processing.</li>
-                                    <li>Implemented Nagios event listener to receive and handle events efficiently.</li>
-                                    <li>Collaborated with the team effectively and followed Object-Oriented Programming (OOP) principles during software development.</li>
-                                    <li>Used Apache Kafka and designed the necessary DB schema to support the project's functionalities. Maintained a Git repository to ensure code version control and efficient collaboration.</li>
+                                    <li>** Transferred from InspiredgeIT Solutions</li>
+                                    <li><b>Network & Monitoring Expertise:</b> Built real-time communication channels (bidirectional sockets),
+                                        processed SNMP traps, and implemented an efficient Nagios event listener.</li>
+                                    <li><b>Full-Stack Development:</b> Designed and implemented functionalities using OOP principles, utilized
+                                        Apache Kafka for data streaming, and created a supporting database schema.</li>
+                                    <li><b>Collaboration & Version Control:</b> Maintained a Git repository and collaborated effectively with the
+                                        team throughout the development process.</li>
                                 </ul>
                             </div>
                         </div>
@@ -43,10 +44,12 @@ const WorkExperiance = () => {
                             <p>Jan 2020 - June 2020</p>
                             <div>
                                 <ul>
-                                    <li>Created a system for monitoring the health of devices by generating events based on the contents of email templates.</li>
-                                    <li>Used regular expressions (regex) to extract relevant information from email messages, such as error codes, device names, and timestamps.</li>
-                                    <li>Processed email data in real-time, allowing for quick identification and resolution of device issues.</li>
-                                    <li>Integrated the generated events into the larger monitoring system, providing a comprehensive view of device health and enabling proactive maintenance and troubleshooting.</li>
+                                    <li>Transferred to Inspiredge’s sister company</li>
+                                    <li><b>Automated Device Monitoring:</b> Built a system using email templates and regular expressions to
+                                        generate real-time events for device health monitoring, enabling faster issue identification and
+                                        resolution.</li>
+                                    <li><b>Enhanced Monitoring System:</b> Integrated generated events into the existing monitoring system,
+                                        offering a comprehensive view of device health.</li>
                                 </ul>
                             </div>
                         </div>
@@ -55,9 +58,12 @@ const WorkExperiance = () => {
                             <p>Aug 2017 - Jan 2020</p>
                             <div>
                                 <ul>
-                                    <li>Developed various web applications, including CMS systems, invoice management systems, and inventory managers, using object-oriented programming (OOP) principles and best practices in software development.</li>
-                                    <li>Collaborated with cross-functional teams, including designers, developers, and marketers, to create web applications that met business needs and provided a positive user experience.</li>
-                                    <li>Designed and developed systems with a focus on scalability, maintainability, and usability, using system design principles that ensured code modularity and flexibility for future enhancements. Additionally, collaborated with marketing teams to develop strategies for promoting web applications and increasing user engagement.</li>
+                                    <li><b>Full-Stack Development:</b> Built diverse web applications (CMS, invoicing, inventory) using OOP and best
+                                        practices. Collaborated with cross-functional teams to deliver user-friendly and scalable solutions.</li>
+                                    <li><b>System Design & Maintainability:</b> Focused on code modularity, scalability, and maintainability while
+                                        designing and developing systems, ensuring future adaptability.</li>
+                                    <li><b>User-Centric Development:</b> Collaborated with designers and marketers to create web applications
+                                        that address business needs and foster user engagement.</li>
                                 </ul>
                             </div>
                         </div>

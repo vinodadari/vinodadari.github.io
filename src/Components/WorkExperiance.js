@@ -7,7 +7,7 @@ const WorkExperiance = () => {
     // console.log(currentCompany);
     return (
         <>
-            <section className="work_experiance">
+            <section className="work_experiance" id="experiance">
                 <h2 className="section_heading" aria-hidden="true">
                     Where I've Worked
                 </h2>

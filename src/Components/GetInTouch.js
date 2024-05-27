@@ -7,7 +7,7 @@ import LinkedinIcon from '../assets/LinkedinIcon.png'
 const GetInTouch = () => {
     return (
         <>
-            <section className='GetinTouch'>
+            <section className='GetinTouch' id='contact'>
             <div className="InnerText big_heading">
                         <h3>
                             Get In Touch

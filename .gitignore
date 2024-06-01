@@ -181,3 +181,5 @@ portfolio/src/style/abstract/_mixin.scss
 portfolio/src/style/abstract/_tools.scss
 portfolio/src/style/abstract/_variables.scss
 portfolio.zip
+.github/workflows/node-gh-pages-ci-cd copy.yml
+package copy.json
